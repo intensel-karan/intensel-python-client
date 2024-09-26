@@ -8,6 +8,9 @@ The Intensel API allows users to create projects, add assets, and retrieve hazar
 Latest version of this script can be found at:
 https://github.com/intensel-karan/intensel-python-client/
 
+Code Documentation can be found at:
+https://docs.intensel.net/docs/python-client/client-usage
+
 Last updated: 2024-09-09
 """
 
