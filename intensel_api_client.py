@@ -170,8 +170,8 @@ class IntenselAPIClient:
                          project_name: str,
                          analysis_type: AnalysisType,
                          variables: List[str],
-                         scenarios: List[str],
-                         years: List[str],
+                         scenarios: Literal["0.0", "2.5", "4.5", "8.5"],
+                         years: Literal["2020", "2030", "2050", "2100"],
                          output_format: OutputFormat = OutputFormat.JSON) -> Union[Dict, str]:
         """
         Get project data (hazard, loss, or scores).
